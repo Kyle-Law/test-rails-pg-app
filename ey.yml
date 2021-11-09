@@ -1,0 +1,13 @@
+defaults:
+  precompile_assets: true
+  precompile_unchanged_assets: true
+  shared_tmp: false
+asset_dependencies:
+- app/assets
+- lib/assets
+- vendor/assets
+- Gemfile.lock
+- config/routes.rb
+- config/application.rb
+- config/requirejs.yml
+- app/javascript
